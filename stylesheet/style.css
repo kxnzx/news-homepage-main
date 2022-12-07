@@ -356,6 +356,12 @@ aside > section > article > p {
   width: 10rem;
   height: 13rem;
 }
+@media screen and (min-width: 1024px) {
+  .secondary-nav > ol > li::before {
+    width: 14rem;
+    height: auto;
+  }
+}
 
 .secondary-nav > ol > li:nth-child(1):before {
   background-image: url(../assets/images/image-retro-pcs.jpg);

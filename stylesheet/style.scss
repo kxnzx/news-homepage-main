@@ -355,6 +355,10 @@ aside > section > article > p {
   display: inline-flex;
   width: 10rem;
   height: 13rem;
+  @media screen and (min-width: $desktop) {
+    width: 14rem;
+    height: auto;
+  }
 }
 
 // Pseudo-classes & Pseudo-elements combination:
